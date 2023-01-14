@@ -1,4 +1,4 @@
-const URL = 'http://localhost:4000'
+const URL = 'https://cheeseapp-backend.onrender.com'
 
 export const cheesesLoader = async () => {
     const response = await fetch(URL + "/cheese")
